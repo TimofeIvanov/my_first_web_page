@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: #f0fdf3;
     display: flex;
 }
 div{
@@ -14,14 +14,16 @@ img{
 h1{
     width: 200px;
     text-align: center;
+    color: #8eeda3;
+    margin: 15px auto;
 }
 button{
-    background-color: rgb(149, 8, 8);
+    background-color: #8eeda3;
     width: 275px;
     border-radius: 40px;
     margin-bottom: 20px;
     height: 40px;
     color: white;
-    box-shadow: 5px 5px 22px 6px rgb(5, 5, 5);
+    box-shadow: 5px 5px 22px 6px rgba(5, 5, 5, 0.1);
     border: none;
 }
