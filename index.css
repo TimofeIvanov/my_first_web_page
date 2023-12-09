@@ -2,14 +2,26 @@ body{
     background-color: #f0fdf3;
     display: flex;
 }
-div{
+.container{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    align-items: center;
 }
-img{
+.imageContainer{
     width: 275px;
     border-radius: 40px;
+    height: 275px;
+    background-color: rgb(214, 214, 216);
+    background-image: url("./kitty.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.description{
+    text-align: center;
+    font-size: 40px;
+    color: #0aa92d;
 }
 h1{
     width: 200px;
